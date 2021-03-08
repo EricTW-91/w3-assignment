@@ -7,9 +7,23 @@
     <link rel="stylesheet" href="/dist/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
     </script><script src="/js/main.js"></script>
-    <title>Document</title>
+    <title>Fetch Photo</title>
 </head>
 <body>
+    <section>
+        <form name="selectPhoto_form" onsubmit="return filterID()" method="dialog">
+            <select id="ID" name="photoID">
+                <option value="all">All</option>
+                <option value="0">1-100</option>
+                <option value="100">101-200</option>
+                <option value="200">201-300</option>
+                <option value="300">301-400</option>
+                <option value="400">401-500</option>
+            </select>
+            <input type="submit">
+        </form>
+    </section>
+
     <figure></figure>
 
 

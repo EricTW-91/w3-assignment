@@ -1,1 +1,81 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+body section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  border-bottom: 3px white solid;
+}
+
+body section form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 20px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+body section form select {
+  width: 30%;
+  text-align-last: center;
+}
+
+body section form input {
+  width: 20%;
+}
+
+body figure {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  place-items: center;
+  width: 100vw;
+  padding: 2em 2em;
+}
+
+body figure div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 8fr 3fr 1fr;
+      grid-template-rows: 8fr 3fr 1fr;
+  row-gap: 10px;
+}
+
+body figure div img {
+  width: 100%;
+  border-radius: 12px;
+  border: 2px solid black;
+  place-self: center;
+}
+
+body figure div h3 {
+  color: white;
+}
+
+body figure div h4 {
+  color: #c5c5c5;
+}
+/*# sourceMappingURL=main.css.map */

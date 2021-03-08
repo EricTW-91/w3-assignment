@@ -1,0 +1,64 @@
+@import './reset';
+
+body{
+    background-color: black;
+
+    section{
+        display: flex;
+        align-items: center;
+
+        height: 50px;
+        border-bottom: 3px white solid;
+        form{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            height: 20px;
+            width: 20%;
+            margin: 0 auto;
+
+            select{
+                width: 30%;
+                text-align-last: center; //align the text inside select box
+            }
+            input{
+                width: 20%;
+            }
+        }
+    }
+
+    figure{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1em;
+        place-items: center;
+        width: 100vw;
+        padding: 2em 2em;
+
+        div{
+            display: grid;
+            grid-template-rows: 8fr 3fr 1fr;
+            row-gap: 10px;
+            
+
+            img{
+                width: 100%;
+                border-radius: 12px;
+                border: 2px solid black;
+                place-self: center;
+            }
+            h3{
+                color: white;
+            }
+            h4{
+                color: rgb(197, 197, 197);
+            }
+
+        }
+        
+    }
+}
+
+
+
